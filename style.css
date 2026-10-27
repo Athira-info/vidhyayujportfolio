@@ -1042,6 +1042,74 @@ h2 span {
     color: var(--ivory);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fix horizontal overflow on small screens */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Keep sections within the viewport */
+section,
+header,
+footer {
+    max-width: 100%;
+}
+
+/* Responsive hero section */
+.hero {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------- Responsive: Tablet ---------- */
 
 @media (max-width: 1100px) {
